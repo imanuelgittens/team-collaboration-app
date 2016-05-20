@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team Collaboration App</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+      <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<div class="app-name">
+			<h4>Team <span>Finder</span></h4>
+		</div>
+		<div class="team-name">
+			<h2>Team Name</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <span class="edit"><a href="#">(Edit)</a> </span></p>
+		</div>
+		<div class="show-more">
+			<button> Show More... </button>
+		</div>
+	</header>
+	<nav>
+		<ul class="top-nav">
+			<li class="off-color"><a href="index.html">Chat</a></li><!--
+			--><li class="off-color"><a href="whiteboard.html">Whiteboard</a></li><!--
+			--><li><a href="#">Chart</a></li><!--
+			--><li><a href="#">Diagrams</a></li><!--
+			--><li><a href="#">Code Editor</a></li><!--
+			--><li><a href="#">Calendar</a></li><!--
+			--><li class="more"><a href="#">+ More</a></li>
+		</ul>
+	</nav>
+	<div class="main-workspace clearfix">
+		<!-- Add all HTML for the chat half of the main workspace  -->
+		<div class="chat-space">
+			<!-- We Show all messages in a stream-->
+			<div class="chat-stream clearfix"> 	
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>John</p>
+					</div>
+					<div class="message pink-arrow">
+
+						<p class="msg-pink">Hi team!</p>
+					</div>
+					<div class="time-past">
+						<p>an hour</p>
+					</div>
+				</div>	
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>Almon</p>
+					</div>
+					<div class="message green-arrow">
+						<p class="msg-green">Hey John, Is Michael here yet?</p>
+					</div>
+					<div class="time-past">
+						<p>32 mins</p>
+					</div>
+				</div>
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>Michael</p>
+					</div>
+					<div class="message cerise-arrow">
+						<p class="msg-cerise">Yes, I'm here. Let's get started</p>
+					</div>
+					<div class="time-past">
+						<p>17 mins</p>
+					</div>
+				</div>
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name you">
+						<p>You</p>
+					</div>
+					<div class="message white-arrow">
+						<p class="msg-white">I'm also here. Let's begin.</p>
+					</div>
+					<div class="time-past">
+						<p>4 mins</p>
+					</div>
+				</div>
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>John</p>
+					</div>
+					<div class="message pink-arrow">
+						<p class="msg-pink">Ok, check <a href="#">this page out</a>. What do you guys think? :)</p>
+					</div>
+					<div class="time-past">
+						<p>4 mins</p>
+					</div>
+				</div>
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>Michael</p>
+					</div>
+					<div class="message cerise-arrow">
+						<p class="msg-cerise">That's awesome. How did you make the transition?</p>
+					</div>
+					<div class="time-past">
+						<p>2 mins</p>
+					</div>
+				</div>
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>Sharon</p>
+					</div>
+					<div class="message orange-arrow">
+						<p class="msg-orange">Nice job!</p>
+					</div>
+					<div class="time-past">
+						<p>1 mins</p>
+					</div>
+				</div>
+			</div>
+			<div class="ss">
+				<input type="text" name="speak" placeholder="Say Something">
+				<input type="button" name="confirmMessage" value="Send">
+			</div>
+		</div>
+	</div>
+	<footer>
+		<!-- No footer information yet -->
+	</footer>
+</body>
+</html>
