@@ -329,6 +329,12 @@ nav {
     font-size: 16px;
 }
 
+.ss label{
+	
+	color: red;
+
+}
+
 /*Utility classes*/
 
 ::-webkit-input-placeholder {
