@@ -352,6 +352,26 @@ nav {
 	width: 50%;
 }
 
+@media (max-width: 860px){
+	.half{
+		width:100%;
+	}
+
+	.top-nav li{
+		width: 100%;
+	}
+
+	.chat-stream > div{
+		margin:0;
+		padding:0;
+	}
+
+	.ss{
+		width:100%;
+		left:0;
+	}
+}
+
 
 
 
